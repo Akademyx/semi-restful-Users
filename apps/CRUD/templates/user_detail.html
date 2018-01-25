@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Detail</title>
+</head>
+<body>
+    <h1>User {{id}}</h1>
+    <p>Full Name: {{first_name}} {{last_name}}</p>
+    <p>Email: {{email}}</p>
+    <p>Created at: {{created_at}}</p>
+    <p>
+        <a href="/users">Edit</a>
+        <a href="/users/{{id}}/delete">Delete</a>
+    </p>
+</body>
+</html>
